@@ -1,0 +1,23 @@
+"AddonInfo"
+{
+    "name"          "My PVE Custom Map"
+    "description"   "A test PVE map with custom Shadow Fiend."
+    "author"        "Your Name"
+    "version"       "1.0"
+    "map"          "maps/my_pve_map.vmap"
+    "GameTypes"
+    {
+        "1"
+        {
+            "gametype" "dota"
+        }
+    }
+    "ScriptFiles"
+    {
+        "0" "scripts/vscripts/custom/custom_shadow_raze.lua"
+    }
+    "vscripts"
+    {
+        "file"        "scripts/vscripts/custom/custom_shadow_raze.lua"
+    }
+}
